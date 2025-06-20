@@ -1,0 +1,1 @@
+javascript:(function(){var scriptUrl="https://raw.githubusercontent.com/gitel-hubescu/js-magic/main/disponibilitate.terenuri.js";fetch(scriptUrl).then((t=>t.text())).then((scriptContent=>{eval(scriptContent)})).catch((t=>alert("Error:",t)))})();
